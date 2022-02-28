@@ -9,11 +9,11 @@ using namespace std;
 
 
 /*
-Instituto Tecnológico de Costa Rica
-Análisis de Algoritmos
+Instituto Tecnologico de Costa Rica
+Analisis de Algoritmos
 
-Prof. Rodrigo Núñez, Caso #1 - 5%
-Estudiante: Kevin Josué Cubillo Chacón
+Prof. Rodrigo Nunez, Caso #1 - 5%
+Estudiante: Kevin Josue Cubillo Chacon
 */
 
 
@@ -57,7 +57,7 @@ vector<int> compareTriplets2(vector<int> a, vector<int> b){
 //// Time Conversion
 
 /*Version ineficiente:
-4 comparaciones,6 sumas explicitas. Además de las operaciones internas
+4 comparaciones,6 sumas explicitas. Ademas de las operaciones internas
 del to_string, stoi y substr.
 */
 
@@ -90,9 +90,9 @@ string timeConversion(string s){
 /*Version eficiente:
 
    Esta version posee unicamente 2 comparaciones y no necesita de funciones como el
-   to_string, stoi o substr, que internamente realizan muchos calculos. Además hace un
+   to_string, stoi o substr, que internamente realizan muchos calculos. Ademas hace un
    mejor uso de la memoria, ya que no necesita de otro string para el resultado, si no
-   que hace los cambios en el mismo string que recibe por parámetro.
+   que hace los cambios en el mismo string que recibe por parametro.
 */
 string timeConversion2(string s) {
     int hora = stoi(s.substr(0,2));
